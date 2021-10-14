@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  asir_dns:
+      image: internetsystemsconsortium/bind9:9.16
+      ports:
+      - "5353:53"
+      volumes:
+      - conf:/etc/bind 
+      - cach:/var/cache/bind 
+      - lib:/var/lib/bind 
+      - log:/var/log 
+volumes:
+  conf:
+  cach:
+  lib:
+  log:
