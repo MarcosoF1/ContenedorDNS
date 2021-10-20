@@ -69,3 +69,14 @@
 - apt install curl
 
 - apt install wget
+
+## Instalación Dig
+
+- apt install dnsutils
+
+
+# Comprobación con dig
+
+- Utilizo el comando dig: dig normacomics.com
+
+- Y me da la respuesta desde este servidor: SERVER: 172.18.0.3#53(172.18.0.3) (El cliente tiene la ip .2 y el servidor .3)
